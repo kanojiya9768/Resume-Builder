@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <title>Résumé Builder</title>
+</head>
+
+<body>
+
+    <!-- //navbar section is here  -->
+    <nav class="navbar">
+
+        <input type="checkbox"
+            name="navbar_responsive_checkbox"
+            id="checkbox_for_nav">
+        <label for="checkbox_for_nav"
+            id="icon_responsive"><i
+                class="fa-solid fa-bars"></i></label>
+
+        <label class="logo"><a
+                href="index.html">RésuméBuilder</a></label>
+        <ul class="nav_element">
+            <li><a href="#"
+                    class="element active">home</a>
+            </li>
+            <li><a href="#"
+                    class="element">about</a></li>
+            <li><a href="#"
+                    class="element">services</a>
+            </li>
+            <li><a href="#"
+                    class="element">contact</a>
+            </li>
+            <li><input type="text" id="search"
+                    placeholder="Search.."></li>
+        </ul>
+    </nav>
+
+
+    <!-- //background section  -->
+    <div class="bg">
+        <dib class="bg_layer">
+            <p class="bg_text_big">The CV that
+                gets the job (done)</p>
+            <p class="bg_text_small">Standing out.
+                Professional. Recruiter-approved.
+                Ready in minutes.</p>
+            <button class="btn"><a
+                    href="resume.html">Build
+                    Résumé</a></button>
+        </dib>
+    </div>
+
+
+
+    <!-- //services section  -->
+    <section>
+        <div class="cardrow_container">
+
+            <!-- //row one  -->
+            <div class="cardrow">
+                <div class="card_text">
+                    <p class="card_text_big">One
+                        Click Away To Get Your
+                        Dream Job</p>
+                    <p class="card_text_small">
+                        Easy to use step-by-step
+                        builder enables you to
+                        create a well-polished,
+                        professional CV in
+                        minutes. Impress. Save
+                        time.</p>
+
+                    <a href="resume.html" id="build_resume_btn_in_card_section">Build Resume</a>
+                </div>
+                <div class="card_image">
+                    <img src="img/first.png"
+                        alt="laptop image"
+                        class="imgFluid">
+                </div>
+            </div>
+
+
+            <!-- //row two  -->
+            <div class="cardrow">
+                <div class="card_text">
+                    <p class="card_text_big">One
+                        Click Away To Get Your
+                        Dream Job</p>
+                    <p class="card_text_small">
+                        Easy to use step-by-step
+                        builder enables you to
+                        create a well-polished,
+                        professional CV in
+                        minutes. Impress. Save
+                        time.</p>
+
+                    <a href="resume.html" id="build_resume_btn_in_card_section">Build Resume</a>
+                </div>
+                <div class="card_image">
+                    <img src="img/second.jpg"
+                        alt="laptop image"
+                        class="imgFluid">
+                </div>
+            </div>
+
+
+
+            <!-- //row three  -->
+            <div class="cardrow">
+                <div class="card_text">
+                    <p class="card_text_big">One
+                        Click Away To Get Your
+                        Dream Job</p>
+                    <p class="card_text_small">
+                        Easy to use step-by-step
+                        builder enables you to
+                        create a well-polished,
+                        professional CV in
+                        minutes. Impress. Save
+                        time.</p>
+
+                    <a href="resume.html" id="build_resume_btn_in_card_section">Build Resume</a>
+                </div>
+                <div class="card_image">
+                    <img src="img/third.jpg"
+                        alt="laptop image"
+                        class="imgFluid">
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- //contact us section  -->
+
+    <div class="form">
+        <form id="form_data">
+            <p>Contact Us</p>
+             <div class="form_element">
+                <input type="text" name="name" placeholder="Full Name" id="name" required>
+                <input type="email" name="email" id="email" placeholder="Email ID" required>
+                <input type="number" name="number" placeholder="Phone Number" id="Number" required>
+                <textarea name="massage" id="massage" placeholder="Write Your Massage.."></textarea>
+                <input type="submit" value="submit" id="submit">
+             </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+   
+<!-- //footer is here  -->
+    <footer class="footer">
+        <p class="footer_text">
+            Copyright &copy;2022 - www.RésuméBuilder.com All rights reserved
+        </p>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="store_data.js"></script>
+</body>
+
+</html>
